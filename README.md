@@ -15,8 +15,6 @@ This can be done in two different ways:
 
 **Method #1**) Use composer
 
-::
-
     "require": {
         "php": ">=5.3.2",
         "symfony/symfony": "2.1.*",
@@ -28,16 +26,12 @@ This can be done in two different ways:
 
 **Method #2**) Use git submodules
 
-::
-
     git submodule add git://github.com/taveo/TaveoPolishExtensionsBundle.git vendor/bundles/Taveo/PolishExtensionsBundle
 
 Register the Taveo namespace
 ---------------------------------------------------
 
 Only required, when using submodules.
-
-::
 
     // app/autoload.php
     $loader->registerNamespaces(array(
@@ -47,8 +41,6 @@ Only required, when using submodules.
 
 Add PolishExtensionsBundle to your application kernel
 -------------------------------------------------------
-
-::
 
     // app/AppKernel.php
     public function registerBundles()
@@ -62,4 +54,35 @@ Add PolishExtensionsBundle to your application kernel
 
 Examples
 ========
+**#1**) Annotations
 
+```php
+<?php
+    // src/Acme/DemoBundle/Entity/AcmeEntity.php
+    
+    use Taveo\PolishExtensionsBundle\Validator\Constraints as TaveoAssert;
+    
+    class AcmeEntity
+    {
+        // ...
+    
+        /**
+         * @TaveoAssert\NIP
+         */
+        protected $nip;
+    
+        // ...
+    
+    }
+    
+    
+```
+
+**#2**) YAML
+``` yaml
+# src/Acme/DemoBundle/Resources/config/validation.yml
+Acme\DemoBundle\Entity\AcmeEntity:
+    properties:
+        nip:
+            - Taveo\PolishExtensionsBundle\Validator\Constraints\NIP: ~
+```
