@@ -8,5 +8,5 @@ use Symfony\Component\Validator\Constraint;
  */
 class NIP extends Constraint
 {
-    public $message = 'To nie jest prawidłowy numer NIP';
+    public $message = 'This value is not a valid NIP number';
 }
