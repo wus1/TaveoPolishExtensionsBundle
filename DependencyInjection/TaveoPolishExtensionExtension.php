@@ -1,6 +1,6 @@
 <?php
 
-namespace Taveo\PolishExtensionBundle\DependencyInjection;
+namespace Taveo\PolishExtensionsBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;

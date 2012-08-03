@@ -1,9 +1,9 @@
 <?php
 
-namespace Taveo\PolishExtensionBundle;
+namespace Taveo\PolishExtensionsBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class TaveoPolishExtensionBundle extends Bundle
+class TaveoPolishExtensionsBundle extends Bundle
 {
 }

@@ -1,5 +1,5 @@
 <?php
-namespace Taveo\PolishExtensionBundle\Validator\Constraints;
+namespace Taveo\PolishExtensionsBundle\Validator\Constraints;
 
 use Symfony\Component\Validator\Constraint;
 use Symfony\Component\Validator\ConstraintValidator;
