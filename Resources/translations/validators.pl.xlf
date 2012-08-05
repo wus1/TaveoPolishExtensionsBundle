@@ -6,6 +6,10 @@
                 <source>This value is not a valid NIP number</source>
                 <target>To jest niepoprawny numer NIP</target>
             </trans-unit>
+            <trans-unit id="1">
+                <source>This value is not a valid PESEL number</source>
+                <target>To jest niepoprawny numer PESEL</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>
