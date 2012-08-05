@@ -15,7 +15,7 @@ class NIPValidator extends ConstraintValidator
         if (!empty($value)) {
             $nip = preg_replace('/[\s-]/', '', $value);
 
-            if (strlen($nip) == 10 && is_numeric($nip)) {
+            if (strlen($nip) == 10 && ctype_digit($nip)) {
                 $sum = 0;
 
                 for ($i = 0; $i < 9; $i++)
