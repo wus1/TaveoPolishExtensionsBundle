@@ -97,6 +97,6 @@ Acme\DemoBundle\Entity\AcmeEntity:
             - Taveo\PolishExtensionsBundle\Validator\Constraints\NIP: ~
         pesel:
             - Taveo\PolishExtensionsBundle\Validator\Constraints\PESEL: ~
-        pesel:
+        regon:
             - Taveo\PolishExtensionsBundle\Validator\Constraints\REGON: ~
 ```
