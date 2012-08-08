@@ -6,9 +6,13 @@
                 <source>This value is not a valid NIP number</source>
                 <target>This value is not a valid NIP number</target>
             </trans-unit>
-            <trans-unit id="1">
+            <trans-unit id="2">
                 <source>This value is not a valid PESEL number</source>
                 <target>This value is not a valid PESEL number</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>This value is not a valid REGON number</source>
+                <target>This value is not a valid REGON number</target>
             </trans-unit>
         </body>
     </file>

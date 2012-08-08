@@ -10,6 +10,10 @@
                 <source>This value is not a valid PESEL number</source>
                 <target>Dieser Wert entspricht keiner gültigen PESEL-Nummer</target>
             </trans-unit>
+            <trans-unit id="3">
+                <source>This value is not a valid REGON number</source>
+                <target>Dieser Wert entspricht keiner gültigen REGON-Nummer</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>
