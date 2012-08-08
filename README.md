@@ -1,9 +1,7 @@
 TaveoPolishExtensionsBundle
 ===========================
 
-Symfony2 Bundle for Polish validators: NIP, REGON (-), PESEL
-
-('-' = not completed)
+Symfony2 Bundle for Polish validators: NIP, REGON, PESEL
 
 It has validation translations for pl, en, de.
 
@@ -78,6 +76,11 @@ Examples
          */
         protected $pesel;
     
+        /**
+         * @TaveoAssert\REGON
+         */
+        protected $regon;
+    
         // ...
     
     }
@@ -92,7 +95,8 @@ Acme\DemoBundle\Entity\AcmeEntity:
     properties:
         nip:
             - Taveo\PolishExtensionsBundle\Validator\Constraints\NIP: ~
-
         pesel:
             - Taveo\PolishExtensionsBundle\Validator\Constraints\PESEL: ~
+        pesel:
+            - Taveo\PolishExtensionsBundle\Validator\Constraints\REGON: ~
 ```
