@@ -1,9 +1,9 @@
 {
-    "name": "taveo/polish-extensions-bundle",
+    "name": "wus1/polish-extensions-bundle",
     "type": "symfony-bundle",
     "description": "Symfony2 Bundle for Polish validators: NIP, REGON, PESEL",
     "keywords": ["pesel", "regon", "nip", "symfony2", "bundle", "taveo", "polish"],
-    "homepage": "http://github.com/taveo/TaveoPolishExtensionsBundle",
+    "homepage": "https://github.com/wus1/TaveoPolishExtensionsBundle.git",
     "license": "MIT",
 
     "authors": [
